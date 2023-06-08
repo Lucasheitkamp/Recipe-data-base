@@ -1,12 +1,14 @@
 
-<!DOCTYPE html>
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="style.css">
+<!--I got the nav bar from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_dropdown_navbar -->
 <style>
 body {
   font-family: Arial, Helvetica, sans-serif;
+
 }
 
 .navbar {
@@ -40,7 +42,7 @@ body {
 }
 
 .navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: red;
+  background-color: rgb(128, 222, 234);
 }
 
 .dropdown-content {
@@ -74,20 +76,24 @@ body {
 
 <div class="navbar">
   <a href="index.html">Home</a>
-  <a href="tips and tricks.html">Tips and tricks</a>
   <div class="dropdown">
     <button class="dropbtn">Recipes
       <i class="fa fa-caret-down"></i>
     </button>
     <div class="dropdown-content">
-      <a href="#">burger</a>
-      <a href="#">grilled cheese</a>
-      <a href="#">tomato soup</a>
+      <a href="Poffertjes.html">Poffertjes</a>
+      <a href="Pannenkoeken.html">Pannenkoeken</a>
+      <a href="Oliebollen.html">Oliebollen</a>
     </div>
   </div> 
 </div>
 
 
-<p> found on https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_dropdown_navbar</p>
+<h1>Lucas's dutch cook book</h1>
+<h3>Are you tired of not being able to cook, do you look like this?</h3>
+<img src="confused.jpg" class="Confused">
+
+<h2 style="color: lightsteelblue;">Well fear not because This magical cook book is there to give you a helping hand. Use this cook book to cook 3 amazing dutch recipes. You can go from unexperienced to a proffesional chef in no time using this cook book. This will be you after you make all the recipes. </h2>
+<img src="Cooking.jpg" class="Cooking">
 </body>
 </html>
