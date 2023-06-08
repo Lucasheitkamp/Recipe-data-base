@@ -1,0 +1,54 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+* {
+    margin: 0;
+    padding-left: 10px  ;
+   
+    font-family: 'Poppins',sans-serif;
+}
+.Poffertjes {
+    max-width: 400px;
+    float: left;
+    border: solid rgb(86, 219, 239);
+    border-radius: 10px;
+    margin-right: 30px;
+    
+   }
+
+
+h1 {
+    text-align: center;
+    color: lightblue;
+
+   
+}
+
+body {
+    background-color: peachpuff;
+}
+
+h3 {
+    text-align: center;
+    font-size: 35px;
+}
+.Confused {
+    max-width: 400px;
+    object-position: center;
+    border: solid rgb(86, 219, 239);;
+border-radius: 10px;
+}
+
+.Cooking {
+    max-width: 400px;
+    float: left;
+    border: solid rgb(86, 219, 239);
+    border-radius: 10px;
+    margin-right: 30px;
+}
+
+p {
+    color: lightblue;
+    font-size: 30px;
+    text-align: center;
+}
+
